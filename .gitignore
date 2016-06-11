@@ -1,0 +1,6 @@
+*.suo
+Debug/
+*.user
+EulerProjects.VC.VC.opendb
+*.db
+ipch/
