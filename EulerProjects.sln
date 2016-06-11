@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EvenFibonacciNumbers", "Eve
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EulerProjectLibrary", "EulerProjectLibrary\EulerProjectLibrary.vcxproj", "{041B56A8-3F3F-4A41-BF33-D07B2D007A1C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EulerProjectMath", "EulerProjectMath\EulerProjectMath.vcxproj", "{595BA97D-FE64-4EDB-A6AB-AF70589B679F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{041B56A8-3F3F-4A41-BF33-D07B2D007A1C}.Release|x64.Build.0 = Release|x64
 		{041B56A8-3F3F-4A41-BF33-D07B2D007A1C}.Release|x86.ActiveCfg = Release|Win32
 		{041B56A8-3F3F-4A41-BF33-D07B2D007A1C}.Release|x86.Build.0 = Release|Win32
+		{595BA97D-FE64-4EDB-A6AB-AF70589B679F}.Debug|x64.ActiveCfg = Debug|x64
+		{595BA97D-FE64-4EDB-A6AB-AF70589B679F}.Debug|x64.Build.0 = Debug|x64
+		{595BA97D-FE64-4EDB-A6AB-AF70589B679F}.Debug|x86.ActiveCfg = Debug|Win32
+		{595BA97D-FE64-4EDB-A6AB-AF70589B679F}.Debug|x86.Build.0 = Debug|Win32
+		{595BA97D-FE64-4EDB-A6AB-AF70589B679F}.Release|x64.ActiveCfg = Release|x64
+		{595BA97D-FE64-4EDB-A6AB-AF70589B679F}.Release|x64.Build.0 = Release|x64
+		{595BA97D-FE64-4EDB-A6AB-AF70589B679F}.Release|x86.ActiveCfg = Release|Win32
+		{595BA97D-FE64-4EDB-A6AB-AF70589B679F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
