@@ -2,9 +2,9 @@
 
 #include "ExportHeader.h"
 
-namespace EulerMath
+namespace EulerTools
 {
-	class EULERMATH_SHARED Vector2f
+	class EulerTools_SHARED Vector2f
 	{
 	public:
 		//default constructor that initializes x and y to 0
@@ -28,10 +28,10 @@ namespace EulerMath
 		Vector2f operator* (const float scalar) const;
 
 		//float * Vector2f
-		friend EULERMATH_SHARED Vector2f operator* (float scalar, const Vector2f& vector);
+		friend EulerTools_SHARED Vector2f operator* (float scalar, const Vector2f& vector);
 
 		//friendly toString
-		friend EULERMATH_SHARED std::ostream& operator<< (std::ostream& out, const Vector2f& vector);
+		friend EulerTools_SHARED std::ostream& operator<< (std::ostream& out, const Vector2f& vector);
 		
 		//Vector2f / Vector2f
 		Vector2f operator/ (const Vector2f& right) const;

@@ -2,9 +2,9 @@
 
 #include "ExportHeader.h"
 
-namespace EulerMath
+namespace EulerTools
 {
-	class EULERMATH_SHARED Vector3f
+	class EulerTools_SHARED Vector3f
 	{
 	public:
 		//default constructor that initializes x, y and z to 0
@@ -28,10 +28,10 @@ namespace EulerMath
 		Vector3f operator* (const float scalar) const;
 
 		//float * Vector3f
-		friend EULERMATH_SHARED Vector3f operator* (float scalar, const Vector3f& vector);
+		friend EulerTools_SHARED Vector3f operator* (float scalar, const Vector3f& vector);
 
 		//friendly toString
-		friend EULERMATH_SHARED std::ostream& operator<< (std::ostream& out, const Vector3f& vector);
+		friend EulerTools_SHARED std::ostream& operator<< (std::ostream& out, const Vector3f& vector);
 
 		//Vector3f / Vector3f
 		Vector3f operator/ (const Vector3f& right) const;

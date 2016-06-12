@@ -2,7 +2,7 @@
 
 #include "Vector2f.h"
 
-namespace EulerMath
+namespace EulerTools
 {
 
 	Vector2f::operator const float*() const

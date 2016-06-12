@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{76efe071-03c5-4fce-be77-560db296d930}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -33,19 +36,25 @@
     <ClInclude Include="Vector3f.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Matrix2f.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Program.cpp">
+    <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2f.cpp">
+      <Filter>Math</Filter>
     </ClCompile>
     <ClCompile Include="Vector2f.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Math</Filter>
     </ClCompile>
     <ClCompile Include="Vector3f.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Math</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
