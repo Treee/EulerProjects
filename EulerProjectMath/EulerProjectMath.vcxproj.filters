@@ -16,6 +16,9 @@
     <Filter Include="Math">
       <UniqueIdentifier>{76efe071-03c5-4fce-be77-560db296d930}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Debug Tools">
+      <UniqueIdentifier>{c9f3d7f7-0d0f-4f89-b431-76ae6c17e6b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -39,6 +42,18 @@
     <ClInclude Include="Matrix2f.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAssert.h">
+      <Filter>Debug Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMemory.h">
+      <Filter>Debug Tools</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -55,6 +70,12 @@
     </ClCompile>
     <ClCompile Include="Vector3f.cpp">
       <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Debug Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Debug Tools</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
